@@ -45,17 +45,54 @@ body {
 }
 
 .home {
-  width: 100%;
-  height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 70px 10% 0;
+  text-align: center;
+  min-height: 100vh;
   background: url('background.jpg') no-repeat center center/cover;
 }
 
 .home-content {
-  max-width: 600px;
+  max-width: 700px;
 }
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+  padding: 100px 10%;
+}
+
+.about-img img {
+  width: 80%;
+  border-radius: 8px;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-text h2 {
+  color: #0ef;
+}
+
+.about-text h4 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.about-text p {
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
+
 
 .home-content h3 {
   font-size: 32px;
