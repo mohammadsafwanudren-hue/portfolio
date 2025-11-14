@@ -8,7 +8,6 @@
     <title>Mohamed Safwan | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
 </head>
 
@@ -25,39 +24,41 @@
         </nav>
     </header>
 
-  <section class="about" id="about">
-    <div class="about-img">
-        <img src="images/safwan.jpg" alt="Mohamed Safwan">
-    </div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, it's me</h3>
+            <h1>Mohamed Safwan</h1>
+            <h3>And I'm a Web Developer and Web Designer <span class="multiple-text"></span></h3>
 
-    <div class="about-text">
-        <h2 class="center">About Me</h2>
-        <h4 class="center">Web Developer</h4>
-        <ul>
-            <li>Passionate Web Developer Fresher</li>
-            <li>Solid understanding of front-end technologies</li>
-            <li>Good knowledge of back-end development</li>
-            <li>Eager to learn and grow in real-world projects</li>
-        </ul>
-    </div>
-</section>
-
+            <p>
+                Motivated and detail-oriented Web Developer Fresher with a strong foundation
+                in front-end and back-end technologies. Passionate about building responsive,
+                user-friendly, and visually appealing websites. Eager to contribute skills
+                to a dynamic development team.
+            </p>
 
             <div class="home-sci">
-                <a href="https://www.instagram.com/safw0_n7">
+                <a href="https://www.instagram.com/safw0_n7?igsh=MThyZDloNDlpOHA3MA%3D%3D&utm_source=qr">
                     <i class='bx bxl-instagram'></i>
                 </a>
-                <a href="https://www.linkedin.com/in/mohammad-safwan-4418bb375">
+
+                <a
+                    href="https://www.linkedin.com/in/mohammad-safwan-4418bb375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                     <i class='bx bxl-linkedin'></i>
                 </a>
+
                 <a href="mailto:mohammadsafwanudren@gmail.com">
                     <i class='bx bxl-gmail'></i>
                 </a>
-               <a href="https://wa.me/918925397288" target="_blank">
-                   <i class="bxl bx-whatsapp" />
+
+                <a href="https://wa.me/918925397288" target="_blank">
+                    <i class='bx bxl-whatsapp'></i>
                 </a>
+
+
             </div>
-        </div>
+
+
     </section>
 
     <section class="about" id="about">
@@ -77,20 +78,92 @@
         </div>
     </section>
 
-    <!-- Skills, Services, Contact sections unchanged -->
 
-    <footer class="footer">
-        <p>© 2025 Mohamed Safwan. All Rights Reserved.</p>
-    </footer>
+    <section class="skills" id="skills">
+        <h1 class="sub-title">My <span>Skills</span></h1>
 
-    <script>
-        // Typed.js Initialization
-        const typed = new Typed('.multiple-text', {
-            strings: ["Web Developer", "Web Designer", "Freelancer"],
-            typeSpeed: 100,
-            backSpeed: 50,
-            loop: true
-        });
-    </script>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar html"><span></span></div>
+            </div>
+
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar css"><span></span></div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar javascript"><span></span></div>
+            </div>
+
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="progress-bar java"><span></span></div>
+            </div>
+
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="progress-bar python"><span></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service" id="services">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="service-list">
+            <div class="service-item">
+                <i class='bx bx-code-alt'>
+                    <section class="service" id="services">
+                        <h1 class="sub-title">My <span>Services</span></h1>
+                        <div class="service-list">
+                            <div class="service-item">
+                                <i class='bx bx-code-alt'></i>
+                                <h3>Web Development</h3>
+                                <p>Building responsive and dynamic websites using modern technologies like HTML, CSS,
+                                    JavaScript, and frameworks.</p>
+                            </div>
+
+                            <div class="service-item">
+                                <i class='bx bx-paint'></i>
+                                <h3>Web Design</h3>
+                                <p>Creating visually appealing and user-friendly designs for websites and applications.
+                                </p>
+                            </div>
+
+                            <div class="service-item">
+                                <i class='bx bx-mobile-alt'></i>
+                                <h3>Responsive Design</h3>
+                                <p>Ensuring websites are mobile-friendly and look great on all devices.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="contact" id="contact">
+                        <h1 class="sub-title">Contact <span>Me</span></h1>
+                        <form action="#" method="post">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </section>
+
+                    <footer>
+                        <p>&copy; 2025 Mohamed Safwan. All Rights Reserved.</p>
+                    </footer>
+
+                    <script>
+
+                        const typed = new Typed('.multiple-text', {
+                            strings: ['Web Developer', 'Web Designer', 'web developer'],
+                            typeSpeed: 100,
+                            backSpeed: 60,
+                            loop: true
+                        });
+                    </script>
+
 </body>
+
 </html>
